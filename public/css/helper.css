@@ -1,0 +1,66 @@
+/* HELPERS */
+
+hr {
+  height: 0;
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+}
+
+/* Clears */
+[class|="clear-"] { width:100%; clear:both;}
+[class*="clear-"] { margin: 0; padding: 0;border: none!important;width: 100%;display: inline-block; display: -webkit-box;}
+[class|="clear"]::before,
+[class|="clear"]::after { display:block; content:"."; clear:both; visibility:hidden; height:0; overflow:hidden;}
+
+.clear-0    { height:0px;  }
+.clear-05   { height:5px;  }
+.clear-10   { height:10px; }
+.clear-20   { height:20px; }
+.clear-30   { height:30px; }
+.clear-40   { height:40px; }
+.clear-50   { height:50px; }
+.clear-60   { height:60px; }
+.clear-70   { height:70px; }
+.clear-80   { height:80px; }
+.clear-90   { height:90px; }
+.clear-100  { height:100px; }
+
+/* Dividers */
+[class*="divider-"] {height: 1px;display: block;width: 100%;float: left;border: 0;border-top: 1px solid #CCC;clear: both;overflow: hidden;}
+.divider-0 {margin: 0 0 0 0;}
+.divider-05{margin: 5px 0 5px 0;}
+.divider-10{margin: 10px 0 10px 0;}
+.divider-15{margin: 15px 0 15px 0;}
+.divider-20{margin: 20px 0 20px 0;}
+.divider-30{margin: 30px 0 30px 0;}
+.divider-40{margin: 40px 0 40px 0;}
+
+.inverse{border-top: 1px solid #333;}
+.no-margin{margin: 0;}
+.no-padding{padding: 0;}
+
+.bg-black{background: #191818;}
+.bg-white{background: #FFF;}
+.bg-grey{background: #999;}
+.bg-grey-l{background: #EEE;}
+.bg-green{background: #25a04d;}
+.bg-blue{background: #254fa0;}
+.bg-blue-l{background: #5a85ea;}
+.bg-yellow{background: #e2d726;}
+.bg-site{background: #3097d1;}
+
+.cl-white{color: #FFF;}
+.cl-grey{color: #999;}
+.cl-grey-l{color: #DDD;}
+.cl-green{color: #54BC75;}
+.cl-yellow{color: #fbf14f;}
+.cl-blue{color: #2a6496;}
+.cl-orange{color: #8a6d3b;}
+.cl-red{color: #FF5454;}
+.cl-site{color: #3097d1;}
+.cl-black{color: #111;}
+
+.bold{font-weight: bold;}
+.unstyled, .unstyled:hover{text-decoration: none!important;color: inherit!important;}
+.unactive{opacity: .3;}
+.shadown{box-shadow: 0px 3px 1px rgba(42, 42, 42, 0.27);}

@@ -1,4 +1,4 @@
-# Lidinn V8 App Tamplete
+# Lidiun V8 App Tamplete
 With this you can get start with Lidiun Framework v8  
 ![React Version](https://img.shields.io/badge/PHP-7.3-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
